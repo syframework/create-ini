@@ -71,8 +71,9 @@ echo "This command will guide you through creating your $file file.\n\n";
 $result = '';
 foreach ($input as $name => $data) {
 	$question = $data['question'] ?? $name;
-	$value = trim(readline($question . ' '));
-	$result .= "$name = " . (empty($value) ? ($data['default'] ?? '') : $value) . PHP_EOL;
+	$default = $data['default'] ?? '';
+	$value = trim(readline("$question [$default]: "));
+	$result .= "$name = " . (empty($value) ? $default : $value) . PHP_EOL;
 }
 
 // Create file
