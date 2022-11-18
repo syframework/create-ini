@@ -1,0 +1,16 @@
+{
+	"name": "sy/create-ini",
+	"description": "Command line INI file generator.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Syone",
+			"email": "syone7@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"bin": ["ini.php"]
+}
