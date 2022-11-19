@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 /**
  * This script takes an argument in command line in JSON for creating a INI file with user input data.

@@ -1,9 +1,9 @@
-# sy/create-ini
+# sy/genini
 
 PHP command line script for helping user to create INI files.
 
 ## Installation
 
 ```
-composer require sy/create-ini
+composer require sy/genini
 ```

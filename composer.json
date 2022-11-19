@@ -1,5 +1,5 @@
 {
-	"name": "sy/create-ini",
+	"name": "sy/genini",
 	"description": "Command line INI file generator.",
 	"type": "library",
 	"license": "MIT",
@@ -12,5 +12,5 @@
 	"require": {
 		"php": ">=7.0"
 	},
-	"bin": ["ini.php"]
+	"bin": ["genini"]
 }
